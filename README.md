@@ -1,5 +1,1 @@
-1660Spring2021
-
-Welcome to class
-
-I can save changes over time.
+Thurday 23 degrees and sunny
