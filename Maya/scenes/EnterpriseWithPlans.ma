@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: EnterpriseWithPlans.ma
-//Last modified: Tue, Jan 26, 2021 11:10:19 AM
+//Last modified: Tue, Jan 26, 2021 11:42:07 AM
 //Codeset: UTF-8
 requires maya "2019";
 requires "mtoa" "4.0.2.1";
@@ -15,13 +15,13 @@ fileInfo "osv" "Mac OS X 10.16";
 createNode transform -s -n "persp";
 	rename -uid "D709F7CC-CD49-2D8A-1DDA-45AB4D1E24FA";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -25.956782786104608 16.037801517120833 26.882083087499872 ;
-	setAttr ".r" -type "double3" -17.738352729681143 -48.200000000007833 1.1929481395983855e-15 ;
+	setAttr ".t" -type "double3" -39.39440362947775 15.250426274717192 25.306474411006334 ;
+	setAttr ".r" -type "double3" -13.538352729674125 -59.799999999994078 -3.161459801713336e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "AF5950B5-814C-8709-BA36-A997F0D96ABE";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 42.404059414454011;
+	setAttr ".coi" 51.824415634475415;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
