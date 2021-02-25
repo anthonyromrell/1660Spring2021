@@ -63,3 +63,5 @@ crashlytics-build.properties
 
 #Mac Files to Ignore
 *.DS_Store
+
+*.painter_lock
